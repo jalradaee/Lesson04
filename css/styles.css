@@ -1,0 +1,117 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+ box-sizing: inherit;
+} 
+body { 
+    background-color: #fcfdfd; 
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+header {
+    text-align: center; 
+    background-color: #1a2e2e; 
+    color:white;
+} 
+section {
+    /*background-color: tomato;*/
+    width: 80%;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    padding: 2rem;
+    text-shadow: 2px 20px 10px ;
+    line-height: 1;
+}
+h2{
+    font-size: 25px;
+    padding: 2rem;
+    text-shadow: 2px 2px 40px ;
+}
+h1 h2{
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    margin: 0.4cm;
+    padding: 0.2cm;
+    border: 10px solid rgb(70, 204, 70);
+    border-width: thin;
+    border-style: groove;
+    background-color: #1a2e2e;
+    width: 300px;
+}
+span{
+   /*  background-color: rgb(191, 255, 71); */
+    width: 100px;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    width: 90%;
+    text-align:center;
+    color:#4a580b;
+    font-style: italic;
+    border-top:slategrey;
+    font-size: 20px;
+    background-color: rgb(191, 255, 71);
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.work{
+    background: rgb(171, 171, 218);
+}
+.left-project {
+    width: 300px;
+    text-align: left;
+    display: inline-block;
+}
+.right-project {
+    width: 300px;
+    display: inline-block;
+    text-align: right;
+}
+
+.projects {
+    background: rgb(236, 227, 227);
+}
+.projects a{
+    color: blue;
+}
+.projects .btn{
+    color: teal;
+    background: rgb(171, 171, 218);
+    border-radius: 4px;
+    padding: 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+.projects .btn:hover{
+ background: rgb(47, 46, 97);
+}
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #1a2e2e;
+    padding: 25px 0;
+}
+.project-item img{
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3{
+    margin-top: 0;
+}
